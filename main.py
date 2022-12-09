@@ -34,7 +34,7 @@ async def command_start(message: types.Message):
     elif message.text == "💰Цены":
         await bot.send_message(message.from_user.id, "Курс работатехники - цена\nКурс програмирования - цена\nКурс веб дизайна - цена")
     elif message.text == "SyatovAmir11":
-        await bot.send_message(message.from_user.id, "5792017544:AAFwvKGtMazJ-GDe5iEmErb1XH7i4Uv4tww")
+        await bot.send_message(message.from_user.id, "")
     elif x1 == 5 and h == 15 and m == 30:
          await bot.send_message(message.from_user.id, "через 2 с половиной часа муви тайм")
     else :
